@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-long long int floor(long long int a)
+long long int floor( long long int a )
 {
     int start = 0 , end = int(a) , mid , res = 0 ;
     while(start <= end)
