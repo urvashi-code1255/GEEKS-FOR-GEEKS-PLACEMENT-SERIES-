@@ -1,6 +1,5 @@
 int bin_search(int A[], int left, int right, int k)
 {
-    
     while(left<=right)
     {
       int mid = left + (right - left)/2 ;
