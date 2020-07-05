@@ -1,6 +1,6 @@
 int MinElementIndex(vector<int> vec)
 {
-	int n = vec.size() ;
+    int n = vec.size() ;
     long int start = 0 , end = n - 1 , mid ;
     
     while(start <= end)
@@ -10,7 +10,7 @@ int MinElementIndex(vector<int> vec)
             
         mid = start + (end - start)/2 ;
         long int prev = (mid + n - 1) % n ; // to avoid going out of bound.
-	    long int next = (mid + 1) % n ;
+	long int next = (mid + 1) % n ;
 	    
         if(vec[mid] <= vec[prev] && vec[mid] <= vec[next])
             return mid ;
