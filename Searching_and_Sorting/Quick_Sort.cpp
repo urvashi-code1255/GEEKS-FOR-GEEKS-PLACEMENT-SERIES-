@@ -12,5 +12,5 @@ int partition (int arr[], int low, int high)
         }
    }
    swap(arr[pIndex] , arr[high]);
-   return pIndex;
+   return pIndex ;
 }
