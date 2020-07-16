@@ -1,5 +1,4 @@
-void Merge(int a[] , int l , int m , int r)
-{
+void Merge(int a[] , int l , int m , int r){
     int i , j, k , n1 = m - l + 1  , n2 = r - m ;
     
     int L[n1] , R[n2] ;
